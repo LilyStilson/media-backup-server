@@ -1,7 +1,8 @@
-# [WIP] Media backup
+# [WIP] Media backup server
 
 ## What is this?
 This is a simple NodeJS server using `fastify` library. The server provides simple REST API that is used by the client application that is accompanying this server.
+If you are looking to offload your media files from your phone to your computer and never lose access to them, this is the repository for you.
 
 ## Why bother?
 NextCloud just didn't work for me. I couldn't be bothered by trying to install Docker, fix missing `sudo`, not working thumbnail generation, my files not being detected, corrupted database, etc.
