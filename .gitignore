@@ -1,0 +1,11 @@
+# Data folder, created by end user or during setup process
+data/
+
+# Datastore db file
+datastore.json
+
+# Thumb folder, created during thumbnail generation
+thumb/
+
+# Node modules
+node_modules/

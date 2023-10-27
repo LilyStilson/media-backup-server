@@ -1,0 +1,24 @@
+{
+  "name": "note9-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "dev-new": "node index.js --regenerate-datastore",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4",
+    "express": "^4.18.2",
+    "fastify": "^4.23.2",
+    "ffprobe": "^1.1.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "mime": "^3.0.0",
+    "mocha": "^10.2.0",
+    "sharp": "^0.32.6",
+    "thumbsupply": "^0.4.0"
+  }
+}
