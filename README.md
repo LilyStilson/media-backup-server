@@ -32,3 +32,12 @@ The server then will start enumerating every single folder and file in the `data
 
 You also can manually trigger regeneration of missing thumbnails and datastore by running `node index.js --regenerate-datastore`.
 
+## TODO
+- [ ] Users
+- - [ ] Authentication
+- - [ ] Permissions
+- [ ] Sorting *Already implemented within app*
+- [ ] Filtering *Already implemented within app*
+- [ ] Search
+- [ ] Setup script
+- [ ] Preferences storage

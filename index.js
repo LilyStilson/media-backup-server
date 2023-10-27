@@ -1,4 +1,3 @@
-// const { ffprobe } = require('fluent-ffmpeg')
 const 
     fs = require('fs'),
     path = require('path'),
@@ -7,8 +6,6 @@ const
     mime = require("mime"),
     chalk = require('chalk'),
     ffprobe = require('fluent-ffmpeg').ffprobe
-const req = require('express/lib/request')
-const { get } = require('http')
 
 const videoFormats = ["mp4", "webm", "mov", "avi", "wmv", "flv", "mkv", "m4v", "m4p", "mpg", "mpeg", "3gp", "3g2"]
 const isVideo = (file) => videoFormats.includes(path.extname(file).substring(1))
