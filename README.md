@@ -27,7 +27,8 @@ The server then will start enumerating every single folder and file in the `data
 2. Install dependencies
     - `npm install`
     - `yarn install`
-3. Run `node index.js` to start the server
+3. Put your files into `data` folder
+4. Run `node index.js` to start the server
 
 You also can manually trigger regeneration of missing thumbnails and datastore by running `node index.js --regenerate-datastore`.
 
